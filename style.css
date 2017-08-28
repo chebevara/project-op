@@ -1,0 +1,204 @@
+/* ========GENERAL ===========*/
+body{
+	background: #ededed;
+	min-width: 1024px;
+	min-height: calc(100vh - 10px);
+	font-size: 12px;
+}
+.show{
+	display: block;
+}
+.hide{
+	display: none;
+}
+.btn{
+	font-size: 12px;
+}
+.active{
+	background: #fff!important;
+}
+/* ==========NAV ==========*/
+.top_line > a {
+    display: inline-block;
+    padding: 6px 10px;
+    background: #ededed;
+    border-radius: 5px 5px 0 0;
+    color: #000;
+    margin: 0;
+}
+.top_line > a:hover{
+	text-decoration: none;
+}
+.top_line a:active{
+	outline: none;
+}
+.no_padding{
+	padding: 0;
+}
+.main_wrapper{
+	height: calc(100vh - 10px);
+	margin: 0 10px 10px 10px;
+	background: #fff;
+}
+.top_line{
+	background: #ededed;
+	display: inline-block;
+    width: 100%;
+}
+.right_wrapper,
+.left_wrapper{
+	overflow: hidden;
+}
+.right_middle{
+	height: 50vh;
+}
+.right_bottom{
+	height: calc(40vh - 10px);
+}
+.left_wrapper,
+.top_list,
+.right_middle{
+	border: 1px solid #ccc;
+}
+.left_wrapper{
+	border-bottom: none;
+}
+.left_wrapper,
+.right_middle,
+.right_bottom{
+	overflow: auto;
+}
+.right_middle{
+	border-left: none;
+}
+.go_back{
+	padding: 5px 10px 0 10px;
+	color: #000;
+	float: left;
+}
+ /* ============LEFT BLOCK========== */
+ .left_wrapper,
+.right__top_line{
+ 	padding: 5px;
+ }
+ .right_middle_inner,
+ .right_bottom{
+ 	padding: 0 5px;
+ }
+ .top_left{
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 10px;
+ }
+
+ .top_left button{
+ 	float: right;
+ 	padding: 2px;
+ }
+ .form_item{
+ 	width: 100%;
+ 	margin-bottom: 5px;
+ }
+ .form_item label{
+ 	width: 30%;
+ }
+ .form_item select,
+ .form_item input{
+ 	width: 65%;
+ 	margin-left: 3%;
+ 	height: 25px;
+ 	border-radius: 5px;
+ 	border: 1px solid #ccc;
+ }
+.left_fixed{
+    position: fixed;
+    bottom: 10px;
+    z-index: 1;
+    width: 24%;
+    min-width: 230px;
+    background: #fff;
+    padding: 10px;
+}
+/* .add_file{
+	display: inline-block;
+    float: left;
+    width: 70%;
+   	text-align: center;
+}
+.add_file a{
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #000;
+}
+.add_file a.file{
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	padding: 5px;
+	display: inline-block;
+} */
+.save_create{
+	display: inline-block;
+    float: right;
+}
+.create,
+.save{
+	display: block;
+    text-align: right;
+    width: 100%;
+    padding: 5px;
+}
+.create:hover,
+.save:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.create span,
+.save span{
+	background: #5cb85c;
+	padding: 5px;
+	border-radius: 5px;
+	color: #fff;
+}
+.save{
+	margin-bottom: 10px;
+}
+.create{
+	margin-bottom: 20px;
+}
+.next_prev{
+	display: inline-block;
+	width: 100%;
+}
+.prev,
+.next{
+	padding: 2px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #000;
+}
+.prev{
+	float: left;
+}
+.next{
+	float: right;
+}
+ /* ========RIGHT BLOCK ==============*/
+ .right__top_line{
+ 	background: #f4f4f4;
+ }
+.right__top_line_form button{
+	margin-right: -3px;
+	border-radius: 0;
+	padding: 2px 10px;
+	border-left: none;
+}
+.right__top_line_form button:first-child{
+	border-left: 1px solid #ccc;
+}
+.right__top_line_form button:nth-child(3),
+.right__top_line_form button:nth-child(7),
+.right__top_line_form button:nth-child(9),
+.right__top_line_form button:nth-child(11){
+	margin-right: -4px;
+}
